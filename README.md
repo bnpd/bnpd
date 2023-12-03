@@ -1,5 +1,5 @@
 ### Hi there 👋
-Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).
+Learn more about me on my [personal website](https://bnpd.github.io/bnpd/). 
 Or find me on [LinkedIn](https://www.linkedin.com/in/bnpd/).
 
 <!--
