@@ -1,11 +1,11 @@
-/* A California Stylesheet (MIT License) */
+/* Based on a California Stylesheet (MIT License), but slightly adapted */
 /* https://github.com/casscss/cass */
 
 :root, html {
-  --base-h:176;
-  --base-s:59%;
-  --base-l:64%;
-  --base-tone:var(--black);
+  --base-h:204;
+  --base-s:76%;
+  --base-l:43%;
+  --base-tone:var(--white);
   --alt-tone:var(--white);
   --acc-tone:var(--white);
   --text-measure:50;
@@ -15,7 +15,7 @@
   --margin-base:1rem;
   --card:calc(var(--type)*.6);
   --type:calc(var(--text-measure)*.55rem);
-  --page:calc(var(--type)*1.6);
+  --page:80vw;
   --a:1;
   --width:100%;
   --padding:calc(var(--padding-base)*.6);
@@ -80,6 +80,12 @@ button,.button{
   transform:scale(.98);
   box-shadow:unset
 }
+iframe{
+  display: block;
+  width: 305px;
+  height: 640px;
+  margin: 0px auto !important;
+}
 .float-right{float:right;}
 .text-center{text-align:center}
 .text-left{text-align:left}
@@ -98,7 +104,7 @@ button,.button{
 .big{--j:1.2}
 .huge{--j:1.4}
 .cursor,.pointer{cursor:pointer}
-.rounded{border-radius:.6em}
+.rounded{border-radius:1.3em}
 .border{border:var(--border)}
 .dashed{border-style:dashed}
 .thick{border-width:2px}
@@ -117,7 +123,16 @@ button,.button{
 .bottom{bottom:0}
 .left{left:0}
 .vertical-center{display:flex; flex:0 1 auto; flex-direction:column; justify-content:center}
-.card{--width:var(--card)}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .type{--width:var(--type)}
 .page{--width:var(--page)}
 .width{max-width:var(--width);padding:0}
