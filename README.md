@@ -1,4 +1,6 @@
 ### Hi there 👋
+Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).
+Or find me on [LinkedIn](https://www.linkedin.com/in/bnpd/).
 
 <!--
 **bnpd/bnpd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
