@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there, I'm Ben 👋
 <!--Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).  -->
 I'm currently working an AI powered language learning app, combining my passions for languages and tech 🙌  
 Reach out if you would like to know more: [LinkedIn](https://www.linkedin.com/in/bnpd/).
