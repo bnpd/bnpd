@@ -1,6 +1,8 @@
 ### Hi there 👋
-Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).  
-Or find me on [LinkedIn](https://www.linkedin.com/in/bnpd/).
+<!--Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).  -->
+I'm currently working an AI powered language learning app, combining my passions for languages and tech 🙌
+Reach out if you would like to know more: [LinkedIn](https://www.linkedin.com/in/bnpd/).
+
 
 <!--
 **bnpd/bnpd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
