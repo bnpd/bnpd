@@ -11,7 +11,7 @@
   --text-measure:50;
   --font-size-base:16px;
   --text-indent:1ch;
-  --padding-base:1rem;
+  --padding-base:2rem;
   --margin-base:1rem;
   --card:calc(var(--type)*.6);
   --type:calc(var(--text-measure)*.55rem);
