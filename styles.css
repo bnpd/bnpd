@@ -165,7 +165,7 @@ iframe{
   --multi:repeat(var(--c),minmax(0,1fr));
   --single:repeat(1,minmax(0,1fr));
   display:grid;
-  gap:var(--m);
+  gap:var(--p);
   grid-template-columns:var(--multi)
 }
 .columns.tablet,.columns.desktop{grid-template-columns:var(--single)}
