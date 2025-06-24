@@ -83,9 +83,9 @@ button,.button{
 }
 iframe{
   display: block;
-  width: 305px;
+  width: 100%;
   height: 640px;
-  margin: 0px auto !important;
+  margin: 1em auto !important;
 }
 .float-right{float:right;}
 .text-center{text-align:center}
