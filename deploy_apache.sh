@@ -18,6 +18,6 @@ rm -r /var/www/html/* && cp -r ./* /var/www/html && echo Deployed Successfully
 # Deploy on file changes
 inotifywait -e close_write,delete,move -m ./ |
 while read -r directory events filename; do #detect file changes
-  rm -r /var/www/html/* && cp -r ./* /var/www/html && echo Deployed Successfully
+  echo -n Deploy && rm -r /var/www/html/* && cp -r ./* /var/www/html && sleep 0.1 && echo ed Successfully
 done
 
