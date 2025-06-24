@@ -123,6 +123,7 @@ iframe{
 .bottom{bottom:0}
 .left{left:0}
 .vertical-center{display:flex; flex:0 1 auto; flex-direction:column; justify-content:center}
+.justify-text{text-align: justify}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
