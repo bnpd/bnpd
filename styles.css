@@ -136,7 +136,7 @@ iframe{
 }
 
 .type{--width:var(--type)}
-.content{--width:var(--page), max-width: 1500px, margin: auto}
+.content{--width:var(--page); max-width: 1500px; margin: auto}
 .width{max-width:var(--width);padding:0}
 .force.width{width:var(--width);padding:0}
 .width.padding{padding:var(--p)}
