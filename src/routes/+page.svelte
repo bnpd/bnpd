@@ -6,7 +6,7 @@
 
 <nav class="blue padding">
     <div class="content">
-        <a href="#" class="bold brand tight no-underline">bnpd</a>
+        <a href="/" class="bold brand tight no-underline">bnpd</a>
         <div class="float-right">
             <a href="https://www.linkedin.com/in/bnpd/" class="tight padding no-underline">LinkedIn</a>
         </div>
