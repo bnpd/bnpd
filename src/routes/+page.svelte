@@ -2,11 +2,12 @@
     import './styles.css';
     import './ca.css';
     import ProjectCard from '$lib/ProjectCard.svelte';
+    import { base } from '$app/paths'
 </script>
 
 <nav class="blue padding">
     <div class="content">
-        <a href="/" class="bold brand tight no-underline">bnpd</a>
+        <a href={base} class="bold brand tight no-underline">bnpd</a>
         <div class="float-right">
             <a href="https://www.linkedin.com/in/bnpd/" class="tight padding no-underline">LinkedIn</a>
         </div>
