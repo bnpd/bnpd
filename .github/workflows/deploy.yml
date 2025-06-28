@@ -1,9 +1,8 @@
-# .github/workflows/deploy.yml
 name: Deploy SvelteKit Static to GitHub Pages
 
 on:
   push:
-    branches: [svelte]  # or your default branch
+    branches: [main]
 
 permissions:
   contents: write
@@ -19,7 +18,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
+      - run: npm i
       - run: npm run build
 
       - name: Deploy
