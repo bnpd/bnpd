@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+      {
+        "name": "bnpd",
+        "configurations": ["Dev"]
+      }
+    ],
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "Dev",
+            "request": "launch",
+            "command": "npm run dev",
+            "cwd": "/home/benjamin/dev/bnpd"
+        }
+    ]
+}

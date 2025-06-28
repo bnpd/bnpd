@@ -9,9 +9,6 @@
 .float-right{ 
   float:right;
 }
-.rounded {
-  border-radius:2em
-}
 .space-evenly {
   display: flex;
 }
@@ -43,4 +40,5 @@ iframe, video {
 }
 iframe {
   height: 800px;
+  max-height: 95dvh;
 }

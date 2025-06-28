@@ -1,6 +1,11 @@
 /* A California Stylesheet (MIT License) */
 /* https://github.com/casscss/cass */
-/* I adapted only the root variable values, make other changes only in styles.css */
+/* I adapted only the root variable values and things moved to under CHANGES comment, make other changes only in styles.css */
+
+/* CHANGES */
+.rounded {
+  border-radius:1.2em;
+}
 
 :root, html {
   --base-h:204; 
@@ -92,7 +97,6 @@ button, .button {
 .huge {--j: 1.4}
 
 .pointer {cursor:pointer}
-.rounded {border-radius:.6em}
 .border {border:1px solid hsl(var(--hue, var(--h)), clamp(0%, calc(.7 * var(--sat, var(--s))), 50%), clamp(0%, calc(.7 * var(--lit, var(--l))), 60%))}
 .dashed {border-style:dashed}
 .thick {border-width:2px}
