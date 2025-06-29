@@ -3,6 +3,8 @@
     import './ca.css';
     import ProjectCard from '$lib/ProjectCard.svelte';
     import { base } from '$app/paths'
+	import { marked } from "marked";
+    import readme from '../../README.md?raw';
 </script>
 
 <nav class="blue padding">
@@ -58,5 +60,13 @@
         <!--<div class="text-center padding">
             <a class="big blue button no-underline" href="#">View More Projects</a>
         </div>-->
+    </div>
+</section>
+
+<section class="blue full-width padding">
+    <div class="content">
+        <div class="two-column-flex">
+            {@html marked(readme)}
+        </div>
     </div>
 </section>

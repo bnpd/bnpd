@@ -34,3 +34,21 @@
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+.two-column-flex {
+  column-count: 2;
+  column-gap: 2rem;
+}
+.two-column-flex p,
+.two-column-flex h1,
+.two-column-flex h2,
+.two-column-flex h3,
+.two-column-flex ul,
+.two-column-flex ol,
+.two-column-flex pre,
+.two-column-flex blockquote {
+  break-inside: avoid;
+}
+hr {
+  margin-bottom: var(--m);
+}

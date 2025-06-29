@@ -7,6 +7,10 @@
   border-radius:1.2em;
 }
 
+.no-margins {--m: 0;}
+
+/* also, removed default text-indent related classes */
+
 :root, html {
   --base-h:204; 
   --base-s:76%;
@@ -15,7 +19,6 @@
   --alt-tone:var(--white);
   --text-measure:100;
   --font-size-base:16px;
-  --text-indent:1ch;
   --padding-base:1.5rem;
   --card:calc(var(--type)*.67);
   --type:calc(var(--text-measure)*.55rem);
@@ -70,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.02em;
 }
 span, em, strong, i, pre, code, address, blockquote, cite, a { padding-left: unset; padding-right: unset}
-p {text-indent:var(--text-indent)}
 p, ul, ol {margin-bottom:var(--m)}
 ul, ol {margin-left:1.6em}
 a {color:inherit}
@@ -195,7 +197,6 @@ button, .button {
 
 .no-gap {gap:0}
 .no-underline {text-decoration:none}
-.no-text-indent {--text-indent:0}
 .no-margin-top {margin-top:0}
 .no-margin-bottom {margin-bottom:0}
 

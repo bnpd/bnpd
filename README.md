@@ -9,7 +9,7 @@ Or, have a look at some of my **[other projects](https://bnpd.github.io/bnpd/)**
 ---
   
 At daytime, I streamline and automate development work across 20+ banks' Salesforce environments and 100+ packages, while ensuring quality and safety come first when we develop new solutions.  
-What I'm proud of:  
+What I'm proud of:
 - **Pipeline automation**: Set up our CICD pipeline for automatic deployments, test reporting and code quality scanning.  
 - **Set up Code Quality Automation**: Introduced SonarQube and enforced our development guidelines with 30+ custom rules. Leading to 300+ fixed quality issues.  
 - **Automated log archiving and monitoring**: Increased compliance and observability using Kibana and Java Spring.  
