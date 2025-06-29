@@ -28,7 +28,10 @@
         <div class="two columns desktop">
             <ProjectCard
                 title="LanGam"
-                description="I created a language learning game aspiring to refresh the concept 'choose your own adventure' books for the 21st century. The learner impacts the plot by their conversations with the (AI powered) game characters."
+                description="
+                    I created a language learning game aspiring to refresh the concept 'choose your own adventure' books for the 21st century. 
+                    The learner impacts the plot by their conversations with the (AI powered) game characters.
+                    The idea is to teach the elaborate grammar of the Polish language in a gamified way."
                 demoUrl="https://langam.app/?utm_source=github&utm_medium=embedded"
                 demoVideo="langam_demo.mp4"
                 link="https://langam.app?utm_source=github"
