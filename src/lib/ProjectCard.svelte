@@ -16,7 +16,7 @@
 
 <div class="card rounded padding">
   {#if !textOnlyCard}<h2 class="text-center">{title}</h2>{/if}
-  <div class={textOnlyCard ? "reverse golden columns desktop" : "columns-no-grid"}>
+  <div class={textOnlyCard ? "reverse golden columns desktop" : "columns-no-grid desktop"}>
     <div class="vertical-space-evenly">
       {#if textOnlyCard}<h2 class="text-center">{title}</h2>{/if}
       {#if subtitle}<h4>{subtitle}</h4>{/if}
@@ -52,6 +52,7 @@
         {#if repo}
           <a target="_blank" href={repo} class="blue button no-underline">Explore Code</a>
         {/if}
+        <slot name="extraButton" />
       </div>
       <slot name="footer" />
       <div class="hide mobile">

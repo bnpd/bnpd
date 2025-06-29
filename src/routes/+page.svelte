@@ -61,7 +61,11 @@
             >
             <span slot="footer">
                 <p>Tech Stack: Svelte, Python backend, OpenAI API, deployed on Render.com.</p>
-                <p>My prototype was accepted at NAACL2024's 19th Workshop on Innovative Use of NLP for Building Educational Applications and awarded the Best Paper award.</p>            </span>
+                <p>My prototype was accepted at NAACL2024's 19th Workshop on Innovative Use of NLP for Building Educational Applications and awarded the Best Paper award.</p>
+            </span>
+            <span slot="extraButton">
+                <a target="_blank" href="https://github.com/bnpd/AllAI/blob/main/Paper%3A%20Automated%20Sentence%20Generation%20for%20a%20Spaced%20Repetition%20Software.pdf" class="blue button no-underline">Read the Paper</a>
+            </span>
                             <!--<a target="_blank" href="MAKE PUBLIC" class="blue button no-underline">Explore Code</a>-->
             </ProjectCard>
             <ProjectCard
