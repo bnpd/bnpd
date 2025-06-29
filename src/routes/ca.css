@@ -16,8 +16,8 @@
   --text-measure:100;
   --font-size-base:16px;
   --text-indent:1ch;
-  --padding-base:1em;
-  --card:calc(var(--type)*.6);
+  --padding-base:1.5rem;
+  --card:calc(var(--type)*.67);
   --type:calc(var(--text-measure)*.55rem);
   --page:calc(var(--type)*1.6);
   --w-h:var(--base-h);
@@ -142,7 +142,7 @@ button, .button {
   grid-template-columns:var(--multi);
 }
 .columns.tablet, .columns.desktop {grid-template-columns:var(--single)}
-.columns .wide {grid-column:auto / span var(--c)}
+.columns .wide {grid-column:auto / span var(--c);}
 .tablet .wide, .desktop .wide {width:100%; grid-column:unset}
 .golden {--multi:1.618fr 1fr}
 .golden.reverse {--multi:1fr 1.618fr}
@@ -176,7 +176,7 @@ button, .button {
   .tablet .wide  {grid-column:auto / span var(--c, 1)}
 }
 
-@media screen and (min-width:45rem) {
+@media screen and (min-width:60rem) {
   :root {
     --width:var(--page);
     --padding:var(--padding-base);

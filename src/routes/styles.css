@@ -18,6 +18,11 @@
 .space-evenly > * + * {
   margin-left: var(--m);
 }
+.vertical-space-evenly {
+  display: flex;
+  flex-direction: column;
+  place-content: space-evenly;
+}
 .tiny {
   font-size: calc(var(--font-size) * 0.8);
 }
@@ -25,10 +30,6 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  padding: calc(var(--p) * 2.5);
-}
-.columns:has(.card) {
-  gap: calc(var(--p) * 2.5);
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

@@ -25,7 +25,7 @@
 
 <section class="padding trim">
     <div class="content text-justify">
-        <div class="three columns desktop">
+        <div class="two columns desktop">
             <ProjectCard
                 title="LanGam"
                 description="I created a language learning game aspiring to refresh the concept 'choose your own adventure' books for the 21st century. The learner impacts the plot by their conversations with the (AI powered) game characters."
