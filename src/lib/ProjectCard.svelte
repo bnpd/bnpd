@@ -2,19 +2,24 @@
   import VideoPlayer from "./VideoPlayer.svelte";
 
   export let title: string;
+  export let subtitle: string = "";
   export let description: string;
   export let link: string = ""; // main project link
   export let repo: string = ""; // repo link
   export let demoUrl: string = ""; // iframe demo url
   export let demoVideo: string = ""; // video src
 
+  $:textOnlyCard = demoUrl || demoVideo;
+
   let isDemoOn = false;
 </script>
 
 <div class="card rounded padding">
-  <div class="reverse golden columns desktop">
+  {#if !textOnlyCard}<h2 class="text-center">{title}</h2>{/if}
+  <div class={textOnlyCard ? "reverse golden columns desktop" : "columns-no-grid"}>
     <div class="vertical-space-evenly">
-      <h2 class="text-center">{title}</h2>
+      {#if textOnlyCard}<h2 class="text-center">{title}</h2>{/if}
+      {#if subtitle}<h4>{subtitle}</h4>{/if}
       <p>{description}</p>
       <div class="media-content hide desktop tablet">
         {#if demoUrl}

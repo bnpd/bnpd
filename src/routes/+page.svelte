@@ -5,6 +5,10 @@
     import { base } from '$app/paths'
 	import { marked } from "marked";
     import readme from '../../README.md?raw';
+
+    let readmeTitle = readme.split('\n')[0];
+    let readmeBody = readme.split('\n').slice(1).join('\n');
+    let readmeCols = readmeBody.split('---').map(col => col.trim());
 </script>
 
 <nav class="blue padding">
@@ -51,6 +55,16 @@
                             <!--<em class="tiny">* Non-beautified prototype. Some features unavailable without Anki installed on the demo device.</em>-->
             </ProjectCard>
             <ProjectCard
+                title="AllAi"
+                subtitle="Automating Language Learning with AI"
+                description="I built AllAi to investigate how to use LLMs and retrieval systems for language teaching in a spaced repetition software. I suggest a sentence based approach to vocabulary review and show that the proposed system greatly improves learning efficiency and enjoyment over traditional approaches."
+            >
+            <span slot="footer">
+                <p>Tech Stack: Svelte, Python backend, OpenAI API, deployed on Render.com.</p>
+                <p>My prototype was accepted at NAACL2024's 19th Workshop on Innovative Use of NLP for Building Educational Applications and awarded the Best Paper award.</p>            </span>
+                            <!--<a target="_blank" href="MAKE PUBLIC" class="blue button no-underline">Explore Code</a>-->
+            </ProjectCard>
+            <ProjectCard
                 title="TravelOrger"
                 description="TravelOrger is a browser extension that helps users organize their multi-stop trips by saving flights and trains to their Google calendar. It can calculate the cheapest and most convenient routes to see multiple cities."
             >
@@ -64,9 +78,21 @@
 </section>
 
 <section class="blue full-width padding">
-    <div class="content">
-        <div class="two-column-flex">
-            {@html marked(readme)}
-        </div>
+    <div class="text-center">
+        {@html marked(readmeTitle)}
     </div>
+    <div class="three columns-no-grid desktop">
+        {#each readmeCols as col}
+        <div>{@html marked(col)}</div>
+        {/each}
+    </div>
+    <!--<div class="three columns-no-grid desktop">
+        {@html marked(readmeBody)}
+    </div>-->
 </section>
+
+<style>
+.columns-no-grid div {
+  break-inside: avoid;
+}
+</style>
