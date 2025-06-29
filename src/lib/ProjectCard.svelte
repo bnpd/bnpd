@@ -17,7 +17,15 @@
       <h2 class="text-center">{title}</h2>
       <p>{description}</p>
       <div class="media-content hide desktop tablet">
-        <slot name="extra" />
+        {#if demoUrl}
+          <em class="block text-center">Try me below! 
+            {#if link}
+              <a target="_blank" href={link}>Or, open in new tab.</a>
+            {/if}
+          </em>
+        {:else if demoVideo}
+          <em class="block text-center">Quick demo below!</em>
+        {/if}
         {#if demoUrl && isDemoOn}
           <iframe class="rounded" src={demoUrl} title="Demo"></iframe>
         {/if}
@@ -33,7 +41,7 @@
             <button class="blue" on:click={() => (isDemoOn = true)}>Try it live</button>
           {/if}
         {/if}
-        {#if link}
+        {#if link && !demoUrl}
           <a target="_blank" href={link} class="blue button no-underline">Try it</a>
         {/if}
         {#if repo}
@@ -41,6 +49,17 @@
         {/if}
       </div>
       <slot name="footer" />
+      <div class="hide mobile">
+        {#if demoUrl}
+          <em class="block text-center">Try me! 
+            {#if link}
+              <a target="_blank" href={link}>Or, open in new tab.</a>
+            {/if}
+          </em>
+        {:else if demoVideo}
+          <em class="block text-center">Quick demo on the right!</em>
+        {/if}
+      </div>
     </div>
     <div class="hide mobile">
       <div class="media-content">
@@ -50,7 +69,6 @@
         {#if demoVideo && !isDemoOn}
           <VideoPlayer src={demoVideo} />
         {/if}
-        <!--<slot name="extra" />-->
       </div>
     </div>
   </div>

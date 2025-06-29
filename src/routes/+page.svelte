@@ -31,8 +31,8 @@
                 description="I created a language learning game aspiring to refresh the concept 'choose your own adventure' books for the 21st century. The learner impacts the plot by their conversations with the (AI powered) game characters."
                 demoUrl="https://langam.app/?utm_source=github&utm_medium=embedded"
                 demoVideo="langam_demo.mp4"
+                link="https://langam.app?utm_source=github"
             >
-                <span slot="extra"><em class="block text-center">Try me below! <a class=" margin-bottom" target="_blank" href="https://langam.app?utm_source=github">Or, open in new tab.</a></em></span>
                 <span slot="footer">Tech stack: Svelte, Pocketbase BaaS extended with JS, OpenAI API, Umami analytics, deployed on DigitalOcean and Render.com.</span>
             </ProjectCard>
             <ProjectCard
@@ -41,7 +41,6 @@
                 repo="https://github.com/bnpd/langki-adder"
                 demoVideo="langki_demo.mp4"
             >
-                <span slot="extra"><em class="block text-center">Quick demo below!</em></span>
                 <span slot="footer">Tech Stack: Java, ContentProvider Android API, OpenAI API, Gradle.</span>
                             <!--<a target="_blank" href="upload latest version with NOT voice mode as start page" class="blue button no-underline">Try it*</a>-->
                             <!--<em class="tiny">* Non-beautified prototype. Some features unavailable without Anki installed on the demo device.</em>-->
