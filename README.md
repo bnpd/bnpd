@@ -1,9 +1,10 @@
 ### Hi there, I'm Ben 👋
-<!--Learn more about me on my [personal website](https://bnpd.github.io/bnpd/).  -->
+
 I'm a software developer based in Copenhagen, Denmark.  
   
 I just launched a **language learning game** aspiring to refresh the concept "choose your own adventure" books for the 21st century. As a learner, you shape the plot by your conversations with the (AI powered) game characters.
 Check it out at **[langam.app](https://langam.app)**.  
+Or, have a look at my [other projects](https://bnpd.github.io/bnpd/). 
   
 ---
   
