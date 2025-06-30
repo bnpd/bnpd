@@ -41,6 +41,7 @@
                 demoUrl="https://langam.app/?utm_source=github&utm_medium=embedded"
                 demoVideo="langam_demo.mp4"
                 link="https://langam.app?utm_source=github"
+                repo="https://github.com/bnpd/LanGam"
             >
                 <span slot="footer">Tech stack: Svelte, Pocketbase BaaS extended with JS, OpenAI API, Umami analytics, deployed on DigitalOcean and Render.com.</span>
             </ProjectCard>

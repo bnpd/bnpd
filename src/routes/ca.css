@@ -44,7 +44,7 @@
 
   color:var(--b);
   background-color:var(--w);
-  font-family:"Helvetica Neue", -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: sans-serif;
   line-height:1.65;
   overflow-x:hidden;
 }
