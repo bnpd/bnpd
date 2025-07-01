@@ -15,7 +15,8 @@
     <div class="content">
         <a href={base} class="bold brand tight no-underline">bnpd</a>
         <div class="float-right">
-            <a href="https://www.linkedin.com/in/bnpd/" class="tight padding no-underline">LinkedIn</a>
+            <a href="https://www.github.com/bnpd/" class="bold tight padding no-underline">Github</a>
+            <a href="https://www.linkedin.com/in/bnpd/" class="bold tight padding no-underline">LinkedIn</a>
         </div>
     </div>
 </nav>
