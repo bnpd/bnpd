@@ -21,7 +21,7 @@
       {#if textOnlyCard}<h2 class="text-center">{title}</h2>{/if}
       {#if subtitle}<h4>{subtitle}</h4>{/if}
       <p>{description}</p>
-      <div class="media-content hide desktop tablet">
+      <div class="media-content hide desktop">
         {#if demoUrl}
           <em class="block text-center">Try me below! 
             {#if link}
@@ -55,19 +55,19 @@
         <slot name="extraButton" />
       </div>
       <slot name="footer" />
-      <div class="hide mobile">
+      <div class="hide mobile tablet">
         {#if demoUrl}
-          <em class="block text-center">Try me! 
+          <em class="block text-right">Try me ➤<br>
             {#if link}
               <a target="_blank" href={link}>Or, open in new tab.</a>
             {/if}
           </em>
         {:else if demoVideo}
-          <em class="block text-center">Quick demo on the right!</em>
+          <em class="block text-right">Quick demo ➤</em>
         {/if}
       </div>
     </div>
-    <div class="hide mobile">
+    <div class="hide mobile tablet">
       <div class="media-content">
         {#if demoUrl && isDemoOn}
           <iframe class="rounded" src={demoUrl} title="Demo"></iframe>
