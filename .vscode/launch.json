@@ -12,7 +12,7 @@
             "name": "Dev",
             "request": "launch",
             "command": "npm run dev",
-            "cwd": "/home/benjamin/dev/bnpd"
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

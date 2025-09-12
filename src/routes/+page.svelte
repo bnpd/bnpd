@@ -57,6 +57,14 @@
                             <!--<em class="tiny">* Non-beautified prototype. Some features unavailable without Anki installed on the demo device.</em>-->
             </ProjectCard>
             <ProjectCard
+                title="Anki AI Integration"
+                description="I enhanced the popular flashcard app Anki with AI capabilities: It automatically checks the information on the user's flashcards for errors, helps with discovery of knowledge gaps and generates personalized flashcards to fill those gaps."
+                repo="https://github.com/bnpd/Anki-Android"
+                demoVideo="anki_ai_demo.mp4"
+            >
+                <span slot="footer">Tech Stack: Kotlin, OpenAI API. Fork of the AnkiDroid app.</span>
+            </ProjectCard>
+            <ProjectCard
                 title="AllAi"
                 subtitle="Automating Language Learning with AI"
                 description="I built AllAi to investigate how to use LLMs and retrieval systems for language teaching in a spaced repetition software. I suggest a sentence based approach to vocabulary review and show that the proposed system greatly improves learning efficiency and enjoyment over traditional approaches."
@@ -75,6 +83,13 @@
                 description="TravelOrger is a browser extension that helps users organize their multi-stop trips by saving flights and trains to their Google calendar. It can calculate the cheapest and most convenient routes to see multiple cities."
             >
                             <!--<a target="_blank" href="MAKE PUBLIC" class="blue button no-underline">Explore Code</a>-->
+            </ProjectCard>
+            <ProjectCard
+                title="bnpd's Portfolio"
+                description="It's what you're looking at right now ✨"
+                repo="https://github.com/bnpd/bnpd"
+            >
+                <span slot="footer">Tech Stack: Svelte, California Style Sheets, deployed on Github pages.</span>
             </ProjectCard>
         </div>
         <!--<div class="text-center padding">
