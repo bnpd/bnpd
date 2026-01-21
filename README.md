@@ -3,7 +3,7 @@
 I'm a software developer based in Copenhagen, Denmark.  
   
 I just launched a **language learning game** aspiring to refresh the concept "choose your own adventure" books for the 21st century. As a learner, you shape the plot by your conversations with the (AI powered) game characters. 
-Check it out at **[langam.app](https://langam.app)**.  
+Check it out at **[langam.app](https://langam-uat-en.onrender.com)**.  
 Or, have a look at some of my **[other projects](https://bnpd.github.io/bnpd/)**. 
   
 ---
